@@ -3,6 +3,7 @@ Version:	0.4
 Release:	%mkrel 1
 License:	BSD-like
 Group:		Networking/File transfer
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		http://www.enderunix.org/aget/
 Source:		http://www.enderunix.org/aget/aget-0.4.tar.gz
 # patch taken from dag rpm
