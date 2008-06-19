@@ -1,6 +1,6 @@
 Name:		aget
 Version:	0.4
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	BSD-like
 Group:		Networking/File transfer
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
