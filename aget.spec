@@ -1,6 +1,6 @@
 Name:		aget
 Version:	0.4
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	BSD-like
 Group:		Networking/File transfer
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -8,6 +8,7 @@ URL:		http://www.enderunix.org/aget/
 Source:		http://www.enderunix.org/aget/aget-0.4.tar.gz
 # patch taken from dag rpm
 Patch0:		errno-include.patch
+Patch1:     aget-0.4-fix_build_hostent.diff
 Summary:	Multithreaded HTTP Download Accelerator
 %description
 Aget is a multithreaded HTTP download accelerator.
@@ -23,7 +24,7 @@ than one connection to download a file from their server.
 %prep
 %setup -q
 %patch0 -p1
-
+%patch1 -p0
 %build
 %{make}
 
