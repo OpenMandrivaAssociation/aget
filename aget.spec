@@ -1,6 +1,6 @@
 Name:		aget
 Version:	0.4.1
-Release:	3
+Release:	4
 License:	BSD-like
 Group:		Networking/File transfer
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
