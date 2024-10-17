@@ -4,7 +4,7 @@ Release:	4
 License:	BSD-like
 Group:		Networking/File transfer
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-URL:		http://www.enderunix.org/%{name}/
+URL:		https://www.enderunix.org/%{name}/
 Source:		http://www.enderunix.org/%{name}/%{name}-%{version}.tar.gz
 Patch1:		aget-0.4-fix_build_hostent.diff
 Summary:	Multithreaded HTTP Download Accelerator
