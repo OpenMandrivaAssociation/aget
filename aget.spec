@@ -9,6 +9,7 @@ Source:		http://www.enderunix.org/%{name}/%{name}-%{version}.tar.gz
 Patch1:		aget-0.4-fix_build_hostent.diff
 Summary:	Multithreaded HTTP Download Accelerator
 
+BuildRequires:	make
 %description
 Aget is a multithreaded HTTP download accelerator.
 
